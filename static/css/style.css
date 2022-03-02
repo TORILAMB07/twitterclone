@@ -55,6 +55,13 @@ Post
   font-weight: bold;
   border-radius: 10px;
 }
+#tweetbutton1 {
+  width: 25%;
+  color: white;
+  background-color: deepskyblue;
+  font-weight: bold;
+  border-radius: 10px;
+}
 #choosefile {
   width: 50%;
   border: 0;
@@ -129,9 +136,9 @@ a#cancel {
 
 @media screen and (max-width: 500px) {
   .posts li .name_body .name {
-    font-size: 40px;
+    font-size: 20px;
   }
-  #tweetbutton {
+  #tweetbutton1 {
     width: 50%;
   }
 }
